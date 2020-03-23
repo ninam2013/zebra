@@ -239,16 +239,97 @@ body {
 	padding: 8px 8px;
 }
 .categories {
-	
-	width: 100%;
-	/* height: 973px;	 */
+	position: relative;	
+	width: 100%;	
 	z-index: 1;
 }
+.categories-button {
+	position: relative;
+	bottom: 1250px;
+	width: 100%;
+	height: 650px;	
+}
+.categories-button h1 {
+	font-size: 116px;
+	color: #ffffff;
+	text-align: center;
+}
+	.button-shoes {
+		position: absolute;
+		left: 356px;
+		top: 185px;
+		width: 200px;
+		height: 200px;
+		border: 1px solid red;
+		border-radius: 50%;
+		background: black;
+	}
+	.button-shirt {
+		position: absolute;
+		left: 500px;
+		top: 260px;
+		width: 200px;
+		height: 200px;
+		border: 1px solid red;
+		border-radius: 50%;
+		background: black;
+	}
+	.button-trousers {
+		position: absolute;
+		left: 670px;
+		top: 195px;
+		width: 200px;
+		height: 200px;
+		border: 1px solid red;
+		border-radius: 50%;
+		background: black;
+	}
+	.button-cap {
+		position: absolute;
+		left: 835px;
+		top: 225px;
+		width: 200px;
+		height: 200px;
+		border: 1px solid red;
+		border-radius: 50%;
+		background: black;
+	}
+	.button-shoes-1 {
+		position: absolute;
+		left: 1008px;
+		top: 260px;
+		width: 200px;
+		height: 200px;
+		border: 1px solid red;
+		border-radius: 50%;
+		background: black;
+	}
+	.button-shirt-1 {
+		position: absolute;
+		left: 1160px;
+		top: 200px;
+		width: 200px;
+		height: 200px;
+		border: 1px solid red;
+		border-radius: 50%;
+		background: black;
+	}
+	.button-umbrella {
+		position: absolute;
+		left: 1300px;
+		top: 285px;
+		width: 200px;
+		height: 200px;
+		border: 1px solid red;
+		border-radius: 50%;
+		background: black;
+	}
 .product {
 	position: relative;
-	height: 818px;
+	height: 518px;
 	background: #ffffff;
-	bottom: 330px;
+	bottom: 650px;
+	z-index: 3;
 }
 .product__img-levis {
 	position: relative;
@@ -314,6 +395,7 @@ text-align: center;
 	position: relative;
 	bottom: 100px;
 	justify-content: space-evenly;
+	flex-wrap: wrap;
 }
 .wrap-button {
 	width: 170px;
@@ -334,76 +416,976 @@ text-align: center;
 .padding {
 	padding-top: 15px;
 }
+.footer {
+	width: 100%;
+	height: 100px;
+	background: #1b2330;
+}
 @media only screen and (min-width: 1650px) and (max-width: 1800px) {
 
 	.banner {
 		top: 980px;			
 		}
+	.categories-button {
+		position: relative;
+		bottom: 1150px;
+		width: 100%;
+		height: 650px;		
+	}
+	.button-shoes {
+		position: absolute;
+		left: 256px;
+		top: 185px;
+		width: 200px;
+		height: 200px;
+		border: 1px solid red;
+		border-radius: 50%;
+		background: black;
+	}
+	.button-shirt {
+		position: absolute;
+		left: 400px;
+		top: 260px;
+		width: 200px;
+		height: 200px;
+		border: 1px solid red;
+		border-radius: 50%;
+		background: black;
+	}
+	.button-trousers {
+		position: absolute;
+		left: 570px;
+		top: 195px;
+		width: 200px;
+		height: 200px;
+		border: 1px solid red;
+		border-radius: 50%;
+		background: black;
+	}
+	.button-cap {
+		position: absolute;
+		left: 735px;
+		top: 225px;
+		width: 200px;
+		height: 200px;
+		border: 1px solid red;
+		border-radius: 50%;
+		background: black;
+	}
+	.button-shoes-1 {
+		position: absolute;
+		left: 908px;
+		top: 260px;
+		width: 200px;
+		height: 200px;
+		border: 1px solid red;
+		border-radius: 50%;
+		background: black;
+	}
+	.button-shirt-1 {
+		position: absolute;
+		left: 1060px;
+		top: 200px;
+		width: 200px;
+		height: 200px;
+		border: 1px solid red;
+		border-radius: 50%;
+		background: black;
+	}
+	.button-umbrella {
+		position: absolute;
+		left: 1200px;
+		top: 285px;
+		width: 200px;
+		height: 200px;
+		border: 1px solid red;
+		border-radius: 50%;
+		background: black;
+	}
 }
 @media only screen and (min-width: 1480px) and (max-width: 1649.9px) {
 	.banner {
 		top: 860px;			
 		}
-		.product__img-jeans {			
-			left: 1100px;			
-		}
+	.product__img-jeans {			
+		left: 1100px;			
+	}
+	.categories-button {
+		position: relative;
+		bottom: 1000px;
+		width: 100%;
+		height: 650px;		
+	}
+	.button-shoes {
+		position: absolute;
+		left: 206px;
+		top: 185px;
+		width: 200px;
+		height: 200px;
+		border: 1px solid red;
+		border-radius: 50%;
+		background: black;
+	}
+	.button-shirt {
+		position: absolute;
+		left: 350px;
+		top: 260px;
+		width: 200px;
+		height: 200px;
+		border: 1px solid red;
+		border-radius: 50%;
+		background: black;
+	}
+	.button-trousers {
+		position: absolute;
+		left: 520px;
+		top: 195px;
+		width: 200px;
+		height: 200px;
+		border: 1px solid red;
+		border-radius: 50%;
+		background: black;
+	}
+	.button-cap {
+		position: absolute;
+		left: 685px;
+		top: 225px;
+		width: 200px;
+		height: 200px;
+		border: 1px solid red;
+		border-radius: 50%;
+		background: black;
+	}
+	.button-shoes-1 {
+		position: absolute;
+		left: 858px;
+		top: 260px;
+		width: 200px;
+		height: 200px;
+		border: 1px solid red;
+		border-radius: 50%;
+		background: black;
+	}
+	.button-shirt-1 {
+		position: absolute;
+		left: 1010px;
+		top: 200px;
+		width: 200px;
+		height: 200px;
+		border: 1px solid red;
+		border-radius: 50%;
+		background: black;
+	}
+	.button-umbrella {
+		position: absolute;
+		left: 1150px;
+		top: 285px;
+		width: 200px;
+		height: 200px;
+		border: 1px solid red;
+		border-radius: 50%;
+		background: black;
+	}
 }
 @media only screen and (min-width: 1350px) and (max-width: 1479.9px) {
 	.banner {
 		top: 750px;			
 		}
-		.product__img-jeans {			
-			left: 1000px;			
-		}
+	.product__img-jeans {			
+		left: 1000px;			
+	}
+	.categories-button {
+		position: relative;
+		bottom: 900px;
+		width: 100%;
+		height: 650px;		
+	}
+	.button-shoes {
+		position: absolute;
+		left: 156px;
+		top: 185px;
+		width: 200px;
+		height: 200px;
+		border: 1px solid red;
+		border-radius: 50%;
+		background: black;
+	}
+	.button-shirt {
+		position: absolute;
+		left: 300px;
+		top: 260px;
+		width: 200px;
+		height: 200px;
+		border: 1px solid red;
+		border-radius: 50%;
+		background: black;
+	}
+	.button-trousers {
+		position: absolute;
+		left: 470px;
+		top: 195px;
+		width: 200px;
+		height: 200px;
+		border: 1px solid red;
+		border-radius: 50%;
+		background: black;
+	}
+	.button-cap {
+		position: absolute;
+		left: 635px;
+		top: 225px;
+		width: 200px;
+		height: 200px;
+		border: 1px solid red;
+		border-radius: 50%;
+		background: black;
+	}
+	.button-shoes-1 {
+		position: absolute;
+		left: 808px;
+		top: 260px;
+		width: 200px;
+		height: 200px;
+		border: 1px solid red;
+		border-radius: 50%;
+		background: black;
+	}
+	.button-shirt-1 {
+		position: absolute;
+		left: 960px;
+		top: 200px;
+		width: 200px;
+		height: 200px;
+		border: 1px solid red;
+		border-radius: 50%;
+		background: black;
+	}
+	.button-umbrella {
+		position: absolute;
+		left: 1100px;
+		top: 285px;
+		width: 200px;
+		height: 200px;
+		border: 1px solid red;
+		border-radius: 50%;
+		background: black;
+	}
 }
 @media only screen and (min-width: 1280px) and (max-width: 1349.9px) {
 	.banner {
 		top: 650px;			
 		}
-		.product__img-jeans {			
-			left: 800px;			
+	.categories-button {			
+		bottom: 900px;			
+		height: 600px;		
+	}
+		.button-shoes {
+			position: absolute;
+			left: 56px;
+			top: 185px;
+			width: 200px;
+			height: 200px;
+			border: 1px solid red;
+			border-radius: 50%;
+			background: black;
 		}
+		.button-shirt {
+			position: absolute;
+			left: 200px;
+			top: 260px;
+			width: 200px;
+			height: 200px;
+			border: 1px solid red;
+			border-radius: 50%;
+			background: black;
+		}
+		.button-trousers {
+			position: absolute;
+			left: 370px;
+			top: 195px;
+			width: 200px;
+			height: 200px;
+			border: 1px solid red;
+			border-radius: 50%;
+			background: black;
+		}
+		.button-cap {
+			position: absolute;
+			left: 535px;
+			top: 225px;
+			width: 200px;
+			height: 200px;
+			border: 1px solid red;
+			border-radius: 50%;
+			background: black;
+		}
+		.button-shoes-1 {
+			position: absolute;
+			left: 708px;
+			top: 260px;
+			width: 200px;
+			height: 200px;
+			border: 1px solid red;
+			border-radius: 50%;
+			background: black;
+		}
+		.button-shirt-1 {
+			position: absolute;
+			left: 860px;
+			top: 200px;
+			width: 200px;
+			height: 200px;
+			border: 1px solid red;
+			border-radius: 50%;
+			background: black;
+		}
+		.button-umbrella {
+			position: absolute;
+			left: 1000px;
+			top: 285px;
+			width: 200px;
+			height: 200px;
+			border: 1px solid red;
+			border-radius: 50%;
+			background: black;
+		}
+		
+	.product__img-jeans {			
+			left: 800px;			
+	}
 }
 @media only screen and (min-width: 1200px) and (max-width: 1279.9px) {
 	.banner {
 		top: 600px;			
-		}
-		.product__img-jeans {			
-			left: 800px;			
-		}
+		}			
+	.product__img-jeans {			
+		left: 800px;			
+	}
+	.categories-button {			
+		bottom: 900px;			
+		height: 600px;		
+	}	
+	.button-shoes {
+		position: absolute;
+		left: 56px;
+		top: 185px;
+		width: 200px;
+		height: 200px;
+		border: 1px solid red;
+		border-radius: 50%;
+		background: black;
+	}
+	.button-shirt {
+		position: absolute;
+		left: 200px;
+		top: 260px;
+		width: 200px;
+		height: 200px;
+		border: 1px solid red;
+		border-radius: 50%;
+		background: black;
+	}
+	.button-trousers {
+		position: absolute;
+		left: 370px;
+		top: 195px;
+		width: 200px;
+		height: 200px;
+		border: 1px solid red;
+		border-radius: 50%;
+		background: black;
+	}
+	.button-cap {
+		position: absolute;
+		left: 535px;
+		top: 225px;
+		width: 200px;
+		height: 200px;
+		border: 1px solid red;
+		border-radius: 50%;
+		background: black;
+	}
+	.button-shoes-1 {
+		position: absolute;
+		left: 708px;
+		top: 260px;
+		width: 200px;
+		height: 200px;
+		border: 1px solid red;
+		border-radius: 50%;
+		background: black;
+	}
+	.button-shirt-1 {
+		position: absolute;
+		left: 860px;
+		top: 200px;
+		width: 200px;
+		height: 200px;
+		border: 1px solid red;
+		border-radius: 50%;
+		background: black;
+	}
+	.button-umbrella {
+		position: absolute;
+		left: 1000px;
+		top: 285px;
+		width: 200px;
+		height: 200px;
+		border: 1px solid red;
+		border-radius: 50%;
+		background: black;
+	}
 }
 @media only screen and (min-width: 1130px) and (max-width: 1199.9px) {
 	.banner {
 		top: 550px;			
 		}
-		.product__img-jeans {			
-			left: 750px;			
-		}
+	.product__img-jeans {			
+		left: 750px;			
+	}
+	.categories-button {
+		position: relative;
+		bottom: 800px;
+		width: 100%;
+		height: 650px;
+	}
+	.button-shoes {
+		position: absolute;
+		left: 16px;
+		top: 185px;
+		width: 200px;
+		height: 200px;
+		border: 1px solid red;
+		border-radius: 50%;
+		background: black;
+	}
+	.button-shirt {
+		position: absolute;
+		left: 100px;
+		top: 300px;
+		width: 200px;
+		height: 200px;
+		border: 1px solid red;
+		border-radius: 50%;
+		background: black;
+	}
+	.button-trousers {
+		position: absolute;
+		left: 250px;
+		top: 195px;
+		width: 200px;
+		height: 200px;
+		border: 1px solid red;
+		border-radius: 50%;
+		background: black;
+	}
+	.button-cap {
+		position: absolute;
+		left: 410px;
+		top: 300px;
+		width: 200px;
+		height: 200px;
+		border: 1px solid red;
+		border-radius: 50%;
+		background: black;
+	}
+	.button-shoes-1 {
+		position: absolute;
+		left: 560px;
+		top: 195px;
+		width: 200px;
+		height: 200px;
+		border: 1px solid red;
+		border-radius: 50%;
+		background: black;
+	}
+	.button-shirt-1 {
+		position: absolute;
+		left: 710px;
+		top: 300px;
+		width: 200px;
+		height: 200px;
+		border: 1px solid red;
+		border-radius: 50%;
+		background: black;
+	}
+	.button-umbrella {
+		position: absolute;
+		left: 860px;
+		top: 195px;
+		width: 200px;
+		height: 200px;
+		border: 1px solid red;
+		border-radius: 50%;
+		background: black;
+	}
 }
 @media only screen and (min-width: 1050px) and (max-width: 1129.9px) {
 	.banner {
 		top: 500px;			
-		}
-		.product__img-jeans {			
-			display: none;
-		}
-		.product__button {			
-			top: 300px;			
-		}
+	}
+	.product__img-jeans {			
+		display: none;
+	}
+	.product__button {			
+		top: 300px;			
+	}
+	.categories-button {
+		position: relative;
+		bottom: 700px;
+		width: 100%;
+		height: 650px;			
+	}
+	.button-shoes {
+		position: absolute;
+		left: 16px;
+		top: 185px;
+		width: 200px;
+		height: 200px;
+		border: 1px solid red;
+		border-radius: 50%;
+		background: black;
+	}
+	.button-shirt {
+		position: absolute;
+		left: 80px;
+		top: 300px;
+		width: 200px;
+		height: 200px;
+		border: 1px solid red;
+		border-radius: 50%;
+		background: black;
+	}
+	.button-trousers {
+		position: absolute;
+		left: 230px;
+		top: 195px;
+		width: 200px;
+		height: 200px;
+		border: 1px solid red;
+		border-radius: 50%;
+		background: black;
+	}
+	.button-cap {
+		position: absolute;
+		left: 390px;
+		top: 300px;
+		width: 200px;
+		height: 200px;
+		border: 1px solid red;
+		border-radius: 50%;
+		background: black;
+	}
+	.button-shoes-1 {
+		position: absolute;
+		left: 540px;
+		top: 195px;
+		width: 200px;
+		height: 200px;
+		border: 1px solid red;
+		border-radius: 50%;
+		background: black;
+	}
+	.button-shirt-1 {
+		position: absolute;
+		left: 690px;
+		top: 300px;
+		width: 200px;
+		height: 200px;
+		border: 1px solid red;
+		border-radius: 50%;
+		background: black;
+	}
+	.button-umbrella {
+		position: absolute;
+		left: 840px;
+		top: 195px;
+		width: 200px;
+		height: 200px;
+		border: 1px solid red;
+		border-radius: 50%;
+		background: black;
+	}
 }
 @media only screen and (min-width: 980px) and (max-width: 1049.9px) {
 	.banner {		
 		top: 450px;			
-		}
-		.product__img-jeans {			
-			display: none;
-		}
-		.product__button {			
-			top: 300px;			
-		}
+	}
+	.del-banner4 {
+		display: none;
+	}
+	.product__img-jeans {			
+		display: none;
+	}
+	.product__button {			
+		top: 300px;			
+	}
+	.categories-button {
+		position: relative;
+		bottom: 650px;
+		width: 100%;
+		height: 450px;		
+	}
+	.categories-button h1 {
+		font-size: 90px;		
+	}
+	.button-shoes {
+		position: absolute;
+		left: 56px;
+		top: 185px;
+		width: 150px;
+		height: 150px;
+		border: 1px solid red;
+		border-radius: 50%;
+		background: black;
+	}
+	.button-shirt {
+		position: absolute;
+		left: 150px;
+		top: 260px;
+		width: 150px;
+		height: 150px;
+		border: 1px solid red;
+		border-radius: 50%;
+		background: black;
+	}
+	.button-trousers {
+		position: absolute;
+		left: 270px;
+		top: 195px;
+		width: 150px;
+		height: 150px;
+		border: 1px solid red;
+		border-radius: 50%;
+		background: black;
+	}
+	.button-cap {
+		position: absolute;
+		left: 400px;
+		top: 225px;
+		width: 150px;
+		height: 150px;
+		border: 1px solid red;
+		border-radius: 50%;
+		background: black;
+	}
+	.button-shoes-1 {
+		position: absolute;
+		left: 530px;
+		top: 260px;
+		width: 150px;
+		height: 150px;
+		border: 1px solid red;
+		border-radius: 50%;
+		background: black;
+	}
+	.button-shirt-1 {
+		position: absolute;
+		left: 660px;
+		top: 200px;
+		width: 150px;
+		height: 150px;
+		border: 1px solid red;
+		border-radius: 50%;
+		background: black;
+	}
+	.button-umbrella {
+		position: absolute;
+		left: 770px;
+		top: 285px;
+		width: 150px;
+		height: 150px;
+		border: 1px solid red;
+		border-radius: 50%;
+		background: black;
+	}
 }
 
-@media only screen and (min-width: 720px) and (max-width: 980px) {
+@media only screen and (min-width: 870px) and (max-width: 979.9px) {
+	.container-header {
+		flex-direction: column;
+		height: 120px;
+		align-items: stretch;		
+	}	
+	.logo {		
+		flex-basis: 100%;
+		height: 60px;	
+		justify-content: center;		
+	}
+.wrap-menu {	
+	flex-direction: row;
+	flex-basis: 100%;
+	height: 60px;
+}
+.menu {	
+	flex-basis: 70%;	
+	padding-left: 0px;
+	justify-content: flex-start;	
+	height: 50px;
+}	
+	.btn {		
+		height: 50px;				
+	}
+	.dropdown {		
+		top: 175px;    	
+	   }
+	.cart {		
+		flex-basis: 30%;			
+	height: 60px;
+	font-size: 24px;	
+	align-items: center;
+	justify-content: center;	
+	}
+	.banner {
+		top: 400px;		
+	}
+	.del-banner2 {
+		display: none;
+	}
+	.del-banner4 {
+		display: none;
+	}
+	.product { 		
+		bottom: 550px;
+	}
+	.product__img-jeans {			
+		display: none;
+	}
+	.product__button {
+		top: 200px;		
+		flex-wrap: wrap;
+	}
+	.wrap-button {
+		margin-top: 20px;
+	}
+	.product__features {			
+		left: 50px;		
+	}
+	.categories-button {
+		position: relative;
+		bottom: 650px;
+		width: 100%;
+		height: 450px;		
+	}
+	.categories-button h1 {
+		font-size: 70px;
+		padding-top: 100px;		
+	}
+	.button-shoes {
+		position: absolute;
+		left: 56px;
+		top: 185px;
+		width: 120px;
+		height: 120px;
+		border: 1px solid red;
+		border-radius: 50%;
+		background: black;
+	}
+	.button-shirt {
+		position: absolute;
+		left: 140px;
+		top: 260px;
+		width: 120px;
+		height: 120px;
+		border: 1px solid red;
+		border-radius: 50%;
+		background: black;
+	}
+	.button-trousers {
+		position: absolute;
+		left: 235px;
+		top: 195px;
+		width: 120px;
+		height: 120px;
+		border: 1px solid red;
+		border-radius: 50%;
+		background: black;
+	}
+	.button-cap {
+		position: absolute;
+		left: 345px;
+		top: 225px;
+		width: 120px;
+		height: 120px;
+		border: 1px solid red;
+		border-radius: 50%;
+		background: black;
+	}
+	.button-shoes-1 {
+		position: absolute;
+		left: 455px;
+		top: 260px;
+		width: 120px;
+		height: 120px;
+		border: 1px solid red;
+		border-radius: 50%;
+		background: black;
+	}
+	.button-shirt-1 {
+		position: absolute;
+		left: 555px;
+		top: 200px;
+		width: 120px;
+		height: 120px;
+		border: 1px solid red;
+		border-radius: 50%;
+		background: black;
+	}
+	.button-umbrella {
+		position: absolute;
+		left: 635px;
+		top: 285px;
+		width: 120px;
+		height: 120px;
+		border: 1px solid red;
+		border-radius: 50%;
+		background: black;
+	}
+}
+@media only screen and (min-width: 820px) and (max-width: 869.9px) {
+	.container-header {
+		flex-direction: column;
+		height: 120px;
+		align-items: stretch;		
+	}	
+	.logo {		
+		flex-basis: 100%;
+		height: 60px;	
+		justify-content: center;		
+	}
+.wrap-menu {	
+	flex-direction: row;
+	flex-basis: 100%;
+	height: 60px;
+}
+.menu {	
+	flex-basis: 70%;	
+	padding-left: 0px;
+	justify-content: flex-start;	
+	height: 50px;
+}	
+	.btn {		
+		height: 50px;				
+	}
+	.dropdown {		
+		top: 175px;    	
+	   }
+	.cart {		
+		flex-basis: 30%;			
+	height: 60px;
+	font-size: 24px;	
+	align-items: center;
+	justify-content: center;	
+	}
+	.banner {
+		top: 350px;		
+	}
+	.del-banner3 {
+		display: none;
+	}
+	.del-banner4 {
+		display: none;
+	}
+	.product { 		
+		bottom: 450px;
+	}
+	.product__img-jeans {			
+		display: none;
+	}
+	.product__button {
+		top: 200px;		
+		flex-wrap: wrap;
+	}
+	.wrap-button {
+		margin-top: 20px;
+	}
+	.product__features {			
+		left: 50px;		
+	}
+	.categories-button {
+		position: relative;
+		bottom: 650px;
+		width: 100%;
+		height: 450px;		
+	}
+	.categories-button h1 {
+		font-size: 70px;
+		padding-top: 100px;		
+	}
+	.button-shoes {
+		position: absolute;
+		left: 56px;
+		top: 185px;
+		width: 120px;
+		height: 120px;
+		border: 1px solid red;
+		border-radius: 50%;
+		background: black;
+	}
+	.button-shirt {
+		position: absolute;
+		left: 140px;
+		top: 260px;
+		width: 120px;
+		height: 120px;
+		border: 1px solid red;
+		border-radius: 50%;
+		background: black;
+	}
+	.button-trousers {
+		position: absolute;
+		left: 235px;
+		top: 195px;
+		width: 120px;
+		height: 120px;
+		border: 1px solid red;
+		border-radius: 50%;
+		background: black;
+	}
+	.button-cap {
+		position: absolute;
+		left: 345px;
+		top: 225px;
+		width: 120px;
+		height: 120px;
+		border: 1px solid red;
+		border-radius: 50%;
+		background: black;
+	}
+	.button-shoes-1 {
+		position: absolute;
+		left: 455px;
+		top: 260px;
+		width: 120px;
+		height: 120px;
+		border: 1px solid red;
+		border-radius: 50%;
+		background: black;
+	}
+	.button-shirt-1 {
+		position: absolute;
+		left: 555px;
+		top: 200px;
+		width: 120px;
+		height: 120px;
+		border: 1px solid red;
+		border-radius: 50%;
+		background: black;
+	}
+	.button-umbrella {
+		position: absolute;
+		left: 635px;
+		top: 285px;
+		width: 120px;
+		height: 120px;
+		border: 1px solid red;
+		border-radius: 50%;
+		background: black;
+	}
+}
+
+
+@media only screen and (min-width: 720px) and (max-width: 819.9px) {
 	.container-header {
 		flex-direction: column;
 		height: 120px;
@@ -441,8 +1423,9 @@ text-align: center;
 	.banner {
 		display: none;		
 	}
-	.product { 		
-		bottom: 150px;
+	.product { 
+		height: 960px;		
+		bottom: 230px;
 	}
 	.product__img-jeans {			
 		display: none;
@@ -454,13 +1437,229 @@ text-align: center;
 	.wrap-button {
 		margin-top: 20px;
 	}
-	.product__features {
-			
+	.product__features {			
 		left: 50px;		
 	}
+	.categories {
+		height: 770px;
+		z-index: auto;
+	}
+	.categories-button {
+		position: relative;
+		bottom: 650px;
+		width: 100%;
+		height: 450px;		
+	}
+	.categories-button h1 {
+		font-size: 60px;
+		padding-top: 100px;		
+	}
+	.button-shoes {
+		position: absolute;
+		left: 6px;
+		top: 185px;
+		width: 120px;
+		height: 120px;
+		border: 1px solid red;
+		border-radius: 50%;
+		background: black;
+	}
+	.button-shirt {
+		position: absolute;
+		left: 90px;
+		top: 260px;
+		width: 120px;
+		height: 120px;
+		border: 1px solid red;
+		border-radius: 50%;
+		background: black;
+	}
+	.button-trousers {
+		position: absolute;
+		left: 185px;
+		top: 195px;
+		width: 120px;
+		height: 120px;
+		border: 1px solid red;
+		border-radius: 50%;
+		background: black;
+	}
+	.button-cap {
+		position: absolute;
+		left: 295px;
+		top: 225px;
+		width: 120px;
+		height: 120px;
+		border: 1px solid red;
+		border-radius: 50%;
+		background: black;
+	}
+	.button-shoes-1 {
+		position: absolute;
+		left: 405px;
+		top: 260px;
+		width: 120px;
+		height: 120px;
+		border: 1px solid red;
+		border-radius: 50%;
+		background: black;
+	}
+	.button-shirt-1 {
+		position: absolute;
+		left: 505px;
+		top: 200px;
+		width: 120px;
+		height: 120px;
+		border: 1px solid red;
+		border-radius: 50%;
+		background: black;
+	}
+	.button-umbrella {
+		position: absolute;
+		left: 585px;
+		top: 285px;
+		width: 120px;
+		height: 120px;
+		border: 1px solid red;
+		border-radius: 50%;
+		background: black;
+	}
 }
-
-@media only screen and (min-width: 530px) and (max-width: 719px) {
+																						/* остановился здесь */
+@media only screen and (min-width: 600px) and (max-width: 719.9px) {				
+	.menu-icon {
+		display: block;
+		width: 50px;
+		height: 50px;
+		background: #f4af97;
+		font-size: 30px;
+		border: none;	
+	}
+	.logo {		
+		flex-basis: 100%;		
+	}
+	.wrap-menu {
+		display: none;
+	}
+	nav {
+		flex-direction: column;
+	}
+	.menu-icon_open .menu-icon__times  {
+		display: none;
+	}
+	.menu-icon_open .menu-icon__bars  {
+		display: block;
+	}
+	.menu-icon__times {
+		display: block;	
+	}
+	.menu-icon__bars {
+		display: none;
+	}
+	.banner {		
+		display: none;	 		
+	}
+	.product {	
+		height: 818px;	
+		bottom: 350px;
+	}
+	.product__img-jeans {			
+		display: none;		
+	}
+	.product__button {		
+		flex-wrap: wrap;
+		top: 200px;
+	}
+	.wrap-button {
+		margin-top: 20px;
+	}
+	.product__features {
+		width: 500px;
+		height: 300px;
+		left: 20px;		
+	}
+	.categories-button {
+		position: relative;
+		bottom: 500px;
+		width: 100%;
+		height: 350px;	
+	}
+	.categories-button h1 {
+		font-size: 60px;
+		padding-top: 100px;		
+	}
+	.button-shoes {
+		position: absolute;
+		left: 20px;
+		top: 165px;
+		width: 100px;
+		height: 100px;
+		border: 1px solid red;
+		border-radius: 50%;
+		background: black;
+	}
+	.button-shirt {
+		position: absolute;
+		left: 90px;
+		top: 200px;
+		width: 100px;
+		height: 100px;
+		border: 1px solid red;
+		border-radius: 50%;
+		background: black;
+	}
+	.button-trousers {
+		position: absolute;
+		left: 170px;
+		top: 170px;
+		width: 100px;
+		height: 100px;
+		border: 1px solid red;
+		border-radius: 50%;
+		background: black;
+	}
+	.button-cap {
+		position: absolute;
+		left: 250px;
+		top: 180px;
+		width: 100px;
+		height: 100px;
+		border: 1px solid red;
+		border-radius: 50%;
+		background: black;
+	}
+	.button-shoes-1 {
+		position: absolute;
+		left: 330px;
+		top: 200px;
+		width: 100px;
+		height: 100px;
+		border: 1px solid red;
+		border-radius: 50%;
+		background: black;
+	}
+	.button-shirt-1 {
+		position: absolute;
+		left: 400px;
+		top: 170px;
+		width: 100px;
+		height: 100px;
+		border: 1px solid red;
+		border-radius: 50%;
+		background: black;
+	}
+	.button-umbrella {
+		position: absolute;
+		left: 465px;
+		top: 210px;
+		width: 100px;
+		height: 100px;
+		border: 1px solid red;
+		border-radius: 50%;
+		background: black;
+	}
+}
+@media only screen and (min-width: 530px) and (max-width: 599.9px) {
 	.menu-icon {
 		display: block;
 		width: 50px;
@@ -511,8 +1710,86 @@ text-align: center;
 		height: 300px;
 		left: 20px;		
 	}
-	
-
+	.categories-button {
+		position: relative;
+		bottom: 500px;
+		width: 100%;
+		height: 350px;	
+	}
+	.categories-button h1 {
+		font-size: 60px;
+		padding-top: 100px;		
+	}
+	.button-shoes {
+		position: absolute;
+		left: 6px;
+		top: 185px;
+		width: 100px;
+		height: 100px;
+		border: 1px solid red;
+		border-radius: 50%;
+		background: black;
+	}
+	.button-shirt {
+		position: absolute;
+		left: 90px;
+		top: 260px;
+		width: 100px;
+		height: 100px;
+		border: 1px solid red;
+		border-radius: 50%;
+		background: black;
+	}
+	.button-trousers {
+		position: absolute;
+		left: 185px;
+		top: 195px;
+		width: 100px;
+		height: 100px;
+		border: 1px solid red;
+		border-radius: 50%;
+		background: black;
+	}
+	.button-cap {
+		position: absolute;
+		left: 295px;
+		top: 225px;
+		width: 100px;
+		height: 100px;
+		border: 1px solid red;
+		border-radius: 50%;
+		background: black;
+	}
+	.button-shoes-1 {
+		position: absolute;
+		left: 405px;
+		top: 260px;
+		width: 100px;
+		height: 100px;
+		border: 1px solid red;
+		border-radius: 50%;
+		background: black;
+	}
+	.button-shirt-1 {
+		position: absolute;
+		left: 505px;
+		top: 200px;
+		width: 100px;
+		height: 100px;
+		border: 1px solid red;
+		border-radius: 50%;
+		background: black;
+	}
+	.button-umbrella {
+		position: absolute;
+		left: 585px;
+		top: 285px;
+		width: 100px;
+		height: 100px;
+		border: 1px solid red;
+		border-radius: 50%;
+		background: black;
+	}
 }
 @media only screen and (min-width: 320px) and (max-width: 530px) {
 	.menu-icon {
@@ -579,5 +1856,11 @@ text-align: center;
 		height: 300px;
 		left: 20px;	
 		top: 0;	
+	}
+	.categories-button {
+		position: relative;
+		bottom: 1250px;
+		width: 100%;
+		height: 650px;	
 	}
 } 
