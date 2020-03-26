@@ -448,15 +448,49 @@ text-align: center;
 }
 .button-size:hover {
 	border: 1px solid #ff808c;
+	transform: scale(1.05);
 }
 .padding {
 	padding-top: 15px;
 }
 .footer {
+	display: flex;	
 	width: 100%;
-	height: 100px;
+	height: 104px;
 	background: #1b2330;
 }
+.block-item {
+	width: 50%;
+}
+	.logo-footer {
+		width: 100%;
+		height: 50%;
+		padding: 26px 0 0 145px;
+	}
+	.copyright {
+		width: 100%;
+		height: 50%;
+		font-size: 16px;
+		color: #8d9198;
+		padding: 14px 0 0 145px;
+	}
+.block-socials {
+	display: flex;
+	width: 50%;	
+	align-items: center;
+	justify-content: center;
+}
+	.block-socials a {
+		color: #ffffff;	
+		font-size: 30px;	
+	}
+	.block-socials a:hover {
+		color: #06b5a9;	
+			
+	}
+	.padding-icon {
+		padding-left: 47px;
+	}
 @media only screen and (min-width: 1650px) and (max-width: 1800px) {
 
 	.banner {
@@ -1135,6 +1169,7 @@ text-align: center;
 	}
 	.product { 		
 		bottom: 450px;
+		height: 718px;
 	}
 	.product__img-jeans {			
 		display: none;
@@ -1442,6 +1477,41 @@ text-align: center;
 		width: 100px;
 		height: 100px;		
 	}
+	.footer {
+		display: flex;
+		flex-direction: column;	
+		width: 100%;
+		height: 204px;
+		background: #1b2330;
+	}
+	.block-item {
+		width: 100%;
+		height: 50%;
+		order: 2;
+	}
+		.logo-footer {
+			display: flex;			
+			width: 100%;
+			height: 50%;
+			padding: 0;
+			justify-content: center;
+			align-items: center;
+		}
+		.copyright {
+			display: flex;	
+			width: 100%;
+			height: 50%;
+			font-size: 16px;
+			color: #8d9198;
+			justify-content: center;
+			align-items: center;
+			padding: 0;
+		}
+	.block-socials {		
+		width: 100%;
+		height: 50%;		
+		order: 1;
+	}		
 }
 @media only screen and (min-width: 530px) and (max-width: 599.9px) {
 	.menu-icon {
@@ -1557,6 +1627,41 @@ text-align: center;
 		width: 90px;
 		height: 90px;		
 	}
+	.footer {
+		display: flex;
+		flex-direction: column;	
+		width: 100%;
+		height: 204px;
+		background: #1b2330;
+	}
+	.block-item {
+		width: 100%;
+		height: 50%;
+		order: 2;
+	}
+		.logo-footer {
+			display: flex;			
+			width: 100%;
+			height: 50%;
+			padding: 0;
+			justify-content: center;
+			align-items: center;
+		}
+		.copyright {
+			display: flex;	
+			width: 100%;
+			height: 50%;
+			font-size: 16px;
+			color: #8d9198;
+			justify-content: center;
+			align-items: center;
+			padding: 0;
+		}
+	.block-socials {		
+		width: 100%;
+		height: 50%;		
+		order: 1;
+	}		
 }
 @media only screen and (min-width: 460px) and (max-width: 529.9px) {
 	.menu-icon {
@@ -1683,6 +1788,41 @@ text-align: center;
 		width: 90px;
 		height: 90px;		
 	}
+	.footer {
+		display: flex;
+		flex-direction: column;	
+		width: 100%;
+		height: 204px;
+		background: #1b2330;
+	}
+	.block-item {
+		width: 100%;
+		height: 50%;
+		order: 2;
+	}
+		.logo-footer {
+			display: flex;			
+			width: 100%;
+			height: 50%;
+			padding: 0;
+			justify-content: center;
+			align-items: center;
+		}
+		.copyright {
+			display: flex;	
+			width: 100%;
+			height: 50%;
+			font-size: 16px;
+			color: #8d9198;
+			justify-content: center;
+			align-items: center;
+			padding: 0;
+		}
+	.block-socials {		
+		width: 100%;
+		height: 50%;		
+		order: 1;
+	}		
 } 
 @media only screen and (min-width: 370px) and (max-width: 459.9px) {
 	.menu-icon {
@@ -1809,6 +1949,41 @@ text-align: center;
 		width: 60px;
 		height: 60px;		
 	}
+	.footer {
+		display: flex;
+		flex-direction: column;	
+		width: 100%;
+		height: 204px;
+		background: #1b2330;
+	}
+	.block-item {
+		width: 100%;
+		height: 50%;
+		order: 2;
+	}
+		.logo-footer {
+			display: flex;			
+			width: 100%;
+			height: 50%;
+			padding: 0;
+			justify-content: center;
+			align-items: center;
+		}
+		.copyright {
+			display: flex;	
+			width: 100%;
+			height: 50%;
+			font-size: 16px;
+			color: #8d9198;
+			justify-content: center;
+			align-items: center;
+			padding: 0;
+		}
+	.block-socials {		
+		width: 100%;
+		height: 50%;		
+		order: 1;
+	}		
 } 
 @media only screen and (min-width: 320px) and (max-width: 369.9px) {
 	.menu-icon {
@@ -1935,4 +2110,39 @@ text-align: center;
 		width: 50px;
 		height: 50px;		
 	}
+	.footer {
+		display: flex;
+		flex-direction: column;	
+		width: 100%;
+		height: 204px;
+		background: #1b2330;
+	}
+	.block-item {
+		width: 100%;
+		height: 50%;
+		order: 2;
+	}
+		.logo-footer {
+			display: flex;			
+			width: 100%;
+			height: 50%;
+			padding: 0;
+			justify-content: center;
+			align-items: center;
+		}
+		.copyright {
+			display: flex;	
+			width: 100%;
+			height: 50%;
+			font-size: 16px;
+			color: #8d9198;
+			justify-content: center;
+			align-items: center;
+			padding: 0;
+		}
+	.block-socials {		
+		width: 100%;
+		height: 50%;		
+		order: 1;
+	}		
 } 
