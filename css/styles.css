@@ -243,10 +243,8 @@ body {
 	border: 2px solid transparent;
 }
 .banner a:hover {
-	border: 2px solid red;	
-}
-.banner div:hover {	
-	transform: scale(1.03);
+	border: 2px solid red;
+	transform: scale(1.03);	
 }
 .banner-indent {
 	padding: 8px 8px;
@@ -386,6 +384,7 @@ body {
 	left: 128px;
 	width: 384px;
 	height: 179px;
+	background-image: url(../images/levis.png);
 }
 .product__features {
 	position: relative;
@@ -439,6 +438,8 @@ text-align: center;
 	left: 1200px;
 	bottom: 380px;
 	width: 330px;
+	height: 461px;
+	background-image: url(../images/jeans.png);
 }
 .product__button {
 	display: flex;
@@ -1429,6 +1430,12 @@ text-align: center;
 	.product {	
 		height: 818px;	
 		bottom: 350px;
+	}
+	.product__img-levis {		
+		left: 80px;
+		width: 250px;
+		background-size: 250px auto;
+		background-repeat: no-repeat;		
 	}	
 	.product__img-jeans {			
 		display: none;		
@@ -1595,7 +1602,10 @@ text-align: center;
 		height: 818px;
 	}
 	.product__img-levis {		
-		left: 50px;		
+		left: 80px;
+		width: 250px;
+		background-size: 250px auto;
+		background-repeat: no-repeat;		
 	}
 	.product__img-jeans {			
 		display: none;		
@@ -1610,7 +1620,7 @@ text-align: center;
 	.product__features {
 		width: 500px;
 		height: 300px;
-		left: 20px;		
+		left: 20px;				
 	}
 	.product-cart__button {
 		margin-left: 40px;
@@ -1762,8 +1772,10 @@ text-align: center;
 		height: 1050px;
 	}
 	.product__img-levis {		
-		left: 20px;
-		width: 320px;		
+		left: 80px;
+		width: 250px;
+		background-size: 250px auto;
+		background-repeat: no-repeat;		
 	}
 	.img-size {
 		width: 80%;
@@ -1789,7 +1801,7 @@ text-align: center;
 		width: 90%;
 		height: 500px;
 		left: 20px;	
-		top: 0;	
+		top: -50px;	
 	}
 	.categories-button {
 		bottom: 430px;
@@ -1937,8 +1949,10 @@ text-align: center;
 		height: 1050px;
 	}
 	.product__img-levis {		
-		left: 20px;
-		width: 320px;		
+		left: 80px;
+		width: 250px;
+		background-size: 200px auto;
+		background-repeat: no-repeat;	
 	}
 	.img-size {
 		width: 80%;
@@ -1964,7 +1978,7 @@ text-align: center;
 		width: 90%;
 		height: 500px;
 		left: 20px;	
-		top: 0;	
+		top: -50px;	
 	}
 	.categories-button {
 		bottom: 370px;
@@ -2113,7 +2127,9 @@ text-align: center;
 	}
 	.product__img-levis {		
 		left: 20px;
-		width: 320px;		
+		width: 250px;
+		background-size: 200px auto;
+		background-repeat: no-repeat;		
 	}
 	.img-size {
 		width: 80%;
@@ -2139,7 +2155,7 @@ text-align: center;
 		width: 90%;
 		height: 500px;
 		left: 20px;	
-		top: 0;	
+		top: -50px;	
 	}
 	.categories-button {
 		bottom: 250px;
