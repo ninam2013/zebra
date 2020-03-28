@@ -239,6 +239,15 @@ body {
 	align-items: center;
 	flex-wrap: nowrap;
 }
+.banner a {
+	border: 2px solid transparent;
+}
+.banner a:hover {
+	border: 2px solid red;	
+}
+.banner div:hover {	
+	transform: scale(1.03);
+}
 .banner-indent {
 	padding: 8px 8px;
 }
@@ -393,6 +402,7 @@ body {
 }
 .product__features p {
 	margin-top: 8px;
+	line-height: 20px;
 }
 .product-cart {
 	display: flex;	
@@ -752,7 +762,7 @@ text-align: center;
 		left: 800px;			
 	}
 	.categories-button {			
-		bottom: 900px;			
+		bottom: 850px;			
 		height: 600px;		
 	}	
 	.button-shoes {
@@ -1368,8 +1378,7 @@ text-align: center;
 		width: 120px;
 		height: 120px;		
 	}
-}
-																						
+}																						
 @media only screen and (min-width: 600px) and (max-width: 719.9px) {				
 	.container-header {
 		flex-direction: column;
@@ -1435,6 +1444,9 @@ text-align: center;
 		width: 500px;
 		height: 300px;
 		left: 20px;		
+	}
+	.product-cart__button {
+		margin-left: 40px;
 	}
 	.categories-button {
 		position: relative;
@@ -1599,6 +1611,9 @@ text-align: center;
 		width: 500px;
 		height: 300px;
 		left: 20px;		
+	}
+	.product-cart__button {
+		margin-left: 40px;
 	}
 	.categories-button {
 		position: relative;
